@@ -41,7 +41,7 @@ Describe here the way to use/install your project
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
 
 
-````
+<p>
 Acesse a página do heroku, entre no projeto em questão, clique sem settings e ache a opção ‘Add domain’.
 
 Em ‘Domain name’ insira ‘*.seudominio.com.br’, sem as aspas e com o asterísitco(*) no começo, copie o que estiver no segundo campo ‘DNS Target’
@@ -49,3 +49,4 @@ Em ‘Domain name’ insira ‘*.seudominio.com.br’, sem as aspas e com o aste
 Acesse o Registro.br, selecione seu domínio, desca a página até DNS e acesse ‘Editar Zona’. Crie um nova entrada, escolha opção CNAME, no primeiro campo escreva www e no segundo campo coloque os dados fornecido no Heroku.
 
 O Registro.br informa ‘As publicações DNS do .br ocorrem a cada 30 minutos através de 6 servidores: a.dns.br até f.dns.br, sendo 3 em território nacional e 3 no exterior. ‘, então espere alguns minutos para que funcione corretamente.
+</p>
